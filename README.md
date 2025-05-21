@@ -33,25 +33,26 @@ To build a signal tracker that identifies startup momentum using structured hiri
 | ------------------ | --------------------------------------- |
 | Web Scraping       | `requests`, `BeautifulSoup`, `Selenium` |
 | Data Cleaning      | `pandas`, `regex`, Jupyter Notebook     |
-| Data Visualization | Power BI (PDF Dashboard)                |
-| Reporting          | Notion (or PDF)                         |
+| Data Visualization | Power BI                |
+| Reporting          | Notion                         |
 
 
 ## Repository Structure
 
+```
 .
-├── Scraped_raw_data
+├── Scraped_raw_data/
 │   ├── Data_scraping.ipynb              - Jupyter notebook for scraping logic
-│   └── raw_data.csv                     - Unprocessed scraped data
+│   └── raw_data.csv                     - Unprocessed scraped job data
 │
-├── Cleaned_data_with_tags
-│   ├── Data_cleaning.ipynb              - Data transformation, cleaning, and tagging
-│   ├── Cleaned_data.csv                 - Cleaned data without tags
+├── Cleaned_data_with_tags/
+│   ├── Data_cleaning.ipynb              - Data transformation, cleaning, and tagging logic
+│   ├── Cleaned_data.csv                 - Cleaned dataset (without tags)
 │   └── Cleaned_data_with_tags.csv       - Final dataset with growth signal tags
 │
-├── Startup_Monitor_analysis_report.pdf  - Visual report/dashboard of insights
+├── Startup_monitor_analysis_report.pdf  - Visual dashboard and summary insights
 └── README.md                            - Project documentation
-
+```
 
 ## Dataset Fields
 
@@ -63,8 +64,6 @@ To build a signal tracker that identifies startup momentum using structured hiri
 | `location`         | Location (Remote/City-based)               |
 | `url`              | Direct job posting link                    |
 | `scrape_date`      | Date when the role was scraped             |
-| `total_open_roles` | Open roles per company (optional grouping) |
-| `growth_signal`    | Growth tags (e.g., “Aggressive Hiring”)    |
 
 
 Growth Signal Tags – Examples
