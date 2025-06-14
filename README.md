@@ -120,3 +120,6 @@ Growth Signal Tags – Examples
 - Recruiters targeting fast-growing companies
 
 - SaaS vendors identifying potential B2B leads
+
+## Notion Link: 
+https://agate-chili-3af.notion.site/Startup-Hiring-Monitor-1facef37d3f8802a8974c8bb3f5ebc44?pvs=143
